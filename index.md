@@ -66,15 +66,15 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 
 ## Talks
 
-* February 14th 2019, University of Leeds, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
-* January 8th 2019, University of Oxford, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
-* December 4th 2018, École normale supérieure, Paris, *Enumeration Complexity of Unions of Conjunctive Queries*.
-* November 5th 2018, Workshop on Enumeration Problems & Applications (WEPA), Pisa, *Enumeration Complexity of Unions of Conjunctive Queries*.
-* May 31st 2018, Israel DB & IR Day, Herzliya, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
-* March 27th 2018, International Conference on Database Theory (ICDT), Vienna, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
-* March 7th 2018, Universidad de Chile, Santiago, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
-* June 19th 2017, Israel Database Day, Haifa, *Efficiently Enumerating Tree Decompositions*.
-* May 16th 2017, The Symposium on Principles of Database Systems (PODS), Chicago, *Efficiently Enumerating Minimal Triangulations*.
-* January 25th 2017, Télécom ParisTech, Paris, *Efficiently Enumerating Tree Decompositions*.
-* June 10th 2016, Alberto Mendelzon International Workshop on Foundations of Data Management (AMW), Panama City, *On the Enumeration of Tree Decompositions*.
+* February 14<sup>th</sup> 2019, University of Leeds, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* January 8<sup>th</sup> 2019, University of Oxford, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* December 4<sup>th</sup> 2018, École normale supérieure, Paris, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* November 5<sup>th</sup> 2018, Workshop on Enumeration Problems & Applications (WEPA), Pisa, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* May 31<sup>st</sup> 2018, Israel DB & IR Day, Herzliya, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
+* March 27<sup>th</sup> 2018, International Conference on Database Theory (ICDT), Vienna, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
+* March 7<sup>th</sup> 2018, Universidad de Chile, Santiago, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
+* June 19<sup>th</sup> 2017, Israel Database Day, Haifa, *Efficiently Enumerating Tree Decompositions*.
+* May 16<sup>th</sup> 2017, The Symposium on Principles of Database Systems (PODS), Chicago, *Efficiently Enumerating Minimal Triangulations*.
+* January 25<sup>th</sup> 2017, Télécom ParisTech, Paris, *Efficiently Enumerating Tree Decompositions*.
+* June 10<sup>th</sup> 2016, Alberto Mendelzon International Workshop on Foundations of Data Management (AMW), Panama City, *On the Enumeration of Tree Decompositions*.
 
