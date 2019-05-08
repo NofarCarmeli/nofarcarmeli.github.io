@@ -17,9 +17,9 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 ## Teaching
 
 * [Workshop in Competitive Programming](https://webcourse.cs.technion.ac.il/234901)
-  * TA in charge (spring18, spring17), TA (spring17, spring16).
+  * TA in charge (spring19, spring18), TA (spring17, spring16).
 * [Combinatorics for CS](https://webcourse.cs.technion.ac.il/234141)
-  * lecturer (summer19, summer18), TA in charge (winter16, winter15, spring15), TA (spring16, spring13).
+  * lecturer (summer18, summer17), TA in charge (winter16, winter15, spring15), TA (spring16, spring13).
 * [Data Structures 1](https://webcourse.cs.technion.ac.il/234218)
   * TA (spring14).
   
