@@ -32,7 +32,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 * 2014, Software developer, Hello World non-profit organization
   * Developed an Android app for [EyeControl](www.eyecontrol.co.il) to helps locked-in individuals communicate using eye movements.
 * 2013, Junior computer vision researcher, [GIP lab](http://gip.cs.technion.ac.il/), Technion
-  * Implemented a prototype of real-time hand detection applied to a Pong game on a Samsung Beam cellphone.
+  * Implemented a prototype of real-time hand detection applied to a [Pong](https://www.youtube.com/watch?v=msWkridhFyQ) game on a Samsung Beam cellphone.
   
 ## Excellence & Awards
 
