@@ -25,8 +25,8 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
   
 ## Internships and Projects
 
-* 2016, Software engineering intern, [Google](https://about.google/intl/en/) Paris
-  * Summer internship with the Cultural Institute front-end team.
+* 2016, Software engineering intern, Google Paris
+  * Summer internship with the [Cultural Institute](https://artsandculture.google.com/) front-end team.
 * 2015, Software engineering intern, [Google](https://about.google/intl/en/) Haifa
   * Summer internship with the Live Results back-end team.
 * 2014, Software developer, Hello World non-profit organization
