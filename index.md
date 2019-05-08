@@ -2,7 +2,7 @@
 
 I am a Ph.D. student in the [Computer Science Department](http://cs.technion.ac.il/) at Technion, Israel. My research, advised by [Prof. Benny Kimelfeld](https://benny.cs.technion.ac.il/) in [Technion Data & Knowledge Laboratory](https://tdk.cs.technion.ac.il/), focuses on database query optimization using enumeration techniques.
 My work so far has focused on enumerating tree decompositions, that can be used as query plans, and on finding the fine grained complexity of evaluating queries based on their structure.
-I love teaching, mainely competitive programming and combinatorics. I also enjoy participating in improvisational theater and swing dancing.
+I love teaching, mainly competitive programming and combinatorics. I also enjoy participating in improvisational theater and swing dancing.
 
 ## Education
 
@@ -17,7 +17,7 @@ I love teaching, mainely competitive programming and combinatorics. I also enjoy
 ## Teaching
 
 * [Workshop in Competitive Programming](https://webcourse.cs.technion.ac.il/234901)
-  * TA in charge (spring19, spring18), TA (spring17, spring16).
+  * TA in charge (spring18, spring17), TA (spring17, spring16).
 * [Combinatorics for CS](https://webcourse.cs.technion.ac.il/234141)
   * lecturer (summer19, summer18), TA in charge (winter16, winter15, spring15), TA (spring16, spring13).
 * [Data Structures 1](https://webcourse.cs.technion.ac.il/234218)
@@ -65,7 +65,7 @@ I love teaching, mainely competitive programming and combinatorics. I also enjoy
 * February 14th 2019, University of Leeds, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * January 8th 2019, University of Oxford, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * December 4th 2018, École normale supérieure, Paris, *Enumeration Complexity of Unions of Conjunctive Queries*.
-* November 5th 2018, Workshop on Enumeration Problems & Applications (WEPA), Piza, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* November 5th 2018, Workshop on Enumeration Problems & Applications (WEPA), Pisa, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * May 31st 2018, Israel DB & IR Day, Herzliya, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
 * March 27th 2018, International Conference on Database Theory (ICDT), Vienna, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
 * March 7th 2018, Universidad de Chile, Santiago, *Enumeration Complexity of Conjunctive Queries with Functional Dependencies*.
