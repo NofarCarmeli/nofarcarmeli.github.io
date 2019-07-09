@@ -38,20 +38,15 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 * 2013, Junior computer vision researcher, [GIP lab](http://gip.cs.technion.ac.il/), Technion
   * Implemented a prototype of real-time hand detection applied to a [Pong](https://www.youtube.com/watch?v=msWkridhFyQ) game on a Samsung Beam cellphone.
   
-## Excellence & Awards
+## Selected Excellence & Awards
 
 * 2019-2020	Google PhD Fellowship.
 * PODS 2019 Best Student Paper Award.
 * 2018-2019	Jacobs Excellence Scholarship.
-* 2018 Aharon and Ephraim Katzir Study Grant.
 * 2017, 2018 Faculty Excellence Scholarship.
 * 2014, 2016	Permanent Excellent Faculty Instructor.
-* 2011-2015 Lapidim excellence program.
-* 2013, 2015	Intel Awards.
 * 2014	Prize4life (a non-profit organization dedicated to the treatment of the ALS disease) scholarship for implementing the EyeControl application.
-* 2014	Final Award.
 * 2014 Represented the Technion at the International Collegiate Programming Contest (ACM-ICPC).
-* 2012, 2013	Samba (Excellent Students in CS) scholarship.
 * 2011, 2012	Technion’s president award for excellence.
 
 ## Selected Publications
