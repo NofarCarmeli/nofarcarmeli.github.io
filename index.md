@@ -55,7 +55,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
   * Won the PODS 2019 Best Student Paper Award.
 * Nofar Carmeli and Markus Kröll, [*Enumeration Complexity of Conjunctive Queries with Functional Dependencies*](https://arxiv.org/abs/1712.07880). In: International Conference on Database Theory, ICDT 2018.
   * Invited for a special issue of Theory of Computing Systems (TOCS) Journal on selected papers from ICDT 2018.
-* Nofar Carmeli, Batya Kenig and Benny Kimelfeld, [*Efficiently Enumerating Minimal Triangulations*](hhttps://arxiv.org/abs/1604.02833). In: The Symposium on Principles of Database Systems, PODS 2017.
+* Nofar Carmeli, Batya Kenig and Benny Kimelfeld, [*Efficiently Enumerating Minimal Triangulations*](https://arxiv.org/abs/1604.02833). In: The Symposium on Principles of Database Systems, PODS 2017.
 <!-- Nofar Carmeli and Markus Kröll, *Enumeration Complexity of Unions of Conjunctive Queries*. In: Workshop on Enumeration Problems & Applications, WEPA 2018. -->
 <!-- Nofar Carmeli, Batya Kenig and Benny Kimelfeld, *On the Enumeration of Tree Decompositions*. In: Alberto Mendelzon International Workshop on Foundations of Data Management, AMW 2016. -->
 
