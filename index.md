@@ -43,9 +43,9 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 * 2019-2020	Google PhD Fellowship.
 * PODS 2019 Best Student Paper Award.
 * 2018-2019	Jacobs Excellence Scholarship.
-* 2017, 2018 Faculty Excellence Scholarship.
+<!-- * 2017, 2018 Faculty Excellence Scholarship. -->
 * 2014, 2016	Permanent Excellent Faculty Instructor.
-* 2014	Prize4life (a non-profit organization dedicated to the treatment of the ALS disease) scholarship for implementing the EyeControl application.
+<!-- * 2014	Prize4life (a non-profit organization dedicated to the treatment of the ALS disease) scholarship for implementing the EyeControl application. -->
 * 2014 Represented the Technion at the International Collegiate Programming Contest (ACM-ICPC).
 * 2011, 2012	Technion’s president award for excellence.
 
