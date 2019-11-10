@@ -63,6 +63,12 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 
 ## Talks
 
+* October 30<sup>th</sup> 2019, Workshop on Enumeration Problems & Applications (WEPA), Sumoto, Japan, *Random Order Enumeration of Answers to CQs*.
+* August 30<sup>th</sup> 2019, IBM Almaden, California, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* July 31<sup>th</sup> 2019, Megagon Labs, California, *My Life before Megagon*.
+* July 1<sup>th</sup> 2019, The Symposium on Principles of Database Systems (PODS), Amsterdam, *On the Enumeration Complexity of Unions of Conjunctive Queries*.
+* June 13<sup>th</sup> 2019, Israel DB Day, Bar-Ilan University, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* May 20<sup>th</sup> 2019, Schloss Dagstuhl, Germany, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * February 14<sup>th</sup> 2019, University of Leeds, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * January 8<sup>th</sup> 2019, University of Oxford, England, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * December 4<sup>th</sup> 2018, École normale supérieure, Paris, *Enumeration Complexity of Unions of Conjunctive Queries*.
