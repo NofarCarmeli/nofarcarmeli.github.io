@@ -4,8 +4,8 @@ title: Nofar Carmeli
 
 # Nofar Carmeli
 
-I am a Ph.D. student in the [Computer Science Department](http://cs.technion.ac.il/) at Technion, Israel. My research, advised by [Prof. Benny Kimelfeld](https://benny.cs.technion.ac.il/) in [Technion Data & Knowledge Laboratory](https://tdk.cs.technion.ac.il/), focuses on database query optimization using enumeration techniques.
-My work so far has focused on enumerating tree decompositions, that can be used as query plans, and on finding the fine grained complexity of evaluating queries based on their structure.
+I am a Ph.D. student in the [Computer Science Department](http://cs.technion.ac.il/) at Technion, Israel. My research, advised by [Prof. Benny Kimelfeld](https://benny.cs.technion.ac.il/) in [Technion Data & Knowledge Laboratory](https://tdk.cs.technion.ac.il/), focuses on database query optimization using their structure and enumeration techniques.
+My work so far has focused on enumerating tree decompositions, that can be used as query plans, and on finding the fine grained complexity of evaluating queries.
 I love teaching, mainly competitive programming and combinatorics. I also enjoy participating in improvisational theater and swing dancing.
 
 ## Education
@@ -24,11 +24,15 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
   * TA in charge (spring19, spring18), TA (spring17, spring16).
 * [Combinatorics for CS](https://webcourse.cs.technion.ac.il/234141)
   * lecturer (summer18, summer17), TA in charge (winter16, winter15, spring15), TA (spring16, spring13).
+* [Logic for CS](https://webcourse.cs.technion.ac.il/234292)
+  * TA (winter19).
 * [Data Structures 1](https://webcourse.cs.technion.ac.il/234218)
   * TA (spring14).
   
 ## Internships and Projects
 
+* 2019, Research scientist intern, [Megagon Labs](https://www.megagon.ai/)
+  * Summer internship working on the Extreme Reading project.
 * 2016, Software engineering intern, Google Paris
   * Summer internship with the [Cultural Institute](https://artsandculture.google.com/) front-end team.
 * 2015, Software engineering intern, [Google](https://about.google/intl/en/) Haifa
@@ -40,6 +44,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
   
 ## Selected Excellence & Awards
 
+* 2020 The Eric and Wendy Schmidt Postdoctoral Award for Women in Mathematical and Computing Sciences.
 * 2019-2020	Google PhD Fellowship.
 * PODS 2019 Best Student Paper Award.
 * 2018-2019	Jacobs Excellence Scholarship.
@@ -51,6 +56,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 
 * Nofar Carmeli and Markus Kröll, [*Enumeration Complexity of Unions of Conjunctive Queries*](https://arxiv.org/abs/1812.03831). In: The Symposium on Principles of Database Systems, PODS 2019.
   * Won the PODS 2019 Best Student Paper Award.
+  * Invited for a special issue of ACM Transaction on Database Systems (TODS) on selected publications from PODS 2019.
 * Nofar Carmeli and Markus Kröll, [*Enumeration Complexity of Conjunctive Queries with Functional Dependencies*](https://arxiv.org/abs/1712.07880). In: International Conference on Database Theory, ICDT 2018.
   * Invited for a special issue of Theory of Computing Systems (TOCS) Journal on selected papers from ICDT 2018.
 * Nofar Carmeli, Batya Kenig and Benny Kimelfeld, [*Efficiently Enumerating Minimal Triangulations*](https://arxiv.org/abs/1604.02833). In: The Symposium on Principles of Database Systems, PODS 2017.
