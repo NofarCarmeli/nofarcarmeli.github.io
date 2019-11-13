@@ -44,7 +44,6 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
   
 ## Selected Excellence & Awards
 
-* 2020 The Eric and Wendy Schmidt Postdoctoral Award for Women in Mathematical and Computing Sciences.
 * 2019-2020	Google PhD Fellowship.
 * PODS 2019 Best Student Paper Award.
 * 2018-2019	Jacobs Excellence Scholarship.
