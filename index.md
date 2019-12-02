@@ -29,7 +29,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 * [Data Structures 1](https://webcourse.cs.technion.ac.il/234218)
   * TA (spring14).
   
-## Internships and Projects
+## Internships & Projects
 
 * 2019, Research scientist intern, [Megagon Labs](https://www.megagon.ai/)
   * Summer internship working on the Extreme Reading project.
