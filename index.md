@@ -42,7 +42,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 * 2013, Junior computer vision researcher, [GIP lab](http://gip.cs.technion.ac.il/), Technion
   * Implemented a prototype of real-time hand detection applied to a [Pong](https://www.youtube.com/watch?v=msWkridhFyQ) game on a Samsung Beam cellphone.
   
-## Selected Excellence & Awards
+## Recognition
 
 * 2019-2020	Google PhD Fellowship.
 * PODS 2019 Best Student Paper Award.
