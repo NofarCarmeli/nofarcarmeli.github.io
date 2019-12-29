@@ -62,6 +62,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 
 ## Talks
 
+* January 2<sup>ed</sup> 2020, TAU Theory Fest - Fine Grained Complexity workshop, Tel Aviv, * The Complexity of Answering Unions of Conjunctive Queries*.
 * October 30<sup>th</sup> 2019, Workshop on Enumeration Problems & Applications (WEPA), Sumoto, Japan, *Random Order Enumeration of Answers to CQs*.
 * August 30<sup>th</sup> 2019, IBM Almaden, California, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * July 31<sup>th</sup> 2019, Megagon Labs, California, *My Life before Megagon*.
