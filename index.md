@@ -62,6 +62,8 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 
 ## Talks
 
+* February 13<sup>th</sup> 2020, Max-Planck-Institut für Informatik, Saarbrücken, Germany, *Enumeration Complexity of Unions of Conjunctive Queries*.
+* February 6<sup>th</sup> 2020, Hasselt University, Belgium, *The Complexity of Answering Unions of Conjunctive Queries*.
 * January 2<sup>ed</sup> 2020, TAU Theory Fest - Fine Grained Complexity workshop, Tel Aviv, *The Complexity of Answering Unions of Conjunctive Queries*.
 * October 30<sup>th</sup> 2019, Workshop on Enumeration Problems & Applications (WEPA), Sumoto, Japan, *Random Order Enumeration of Answers to CQs*.
 * August 30<sup>th</sup> 2019, IBM Almaden, California, *Enumeration Complexity of Unions of Conjunctive Queries*.
