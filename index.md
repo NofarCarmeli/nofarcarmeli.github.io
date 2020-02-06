@@ -62,6 +62,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 
 ## Talks
 
+* February 28<sup>th</sup> 2020, École normale supérieure, Paris, *The Complexity of Answering Unions of Conjunctive Queries*.
 * February 13<sup>th</sup> 2020, Max-Planck-Institut für Informatik, Saarbrücken, Germany, *Enumeration Complexity of Unions of Conjunctive Queries*.
 * February 6<sup>th</sup> 2020, Hasselt University, Belgium, *The Complexity of Answering Unions of Conjunctive Queries*.
 * February 5<sup>th</sup> 2020, CRIStAL research center, Lille, France, *Enumeration Complexity of Unions of Conjunctive Queries*.
