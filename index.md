@@ -11,7 +11,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 ## Education
 
 * [Technion, Israel Institue of Technology](https://www.technion.ac.il/en/home-2/)
-  * 2015-today, Ph.D. candidate, expected graduation December 2020.
+  * 2015-today, Ph.D. candidate.
   * 2011-2015, B.Sc. in Computer Science, [Lapidim](http://lapidim.cs.technion.ac.il/) excellence program, graduated summa cum laude.
 * [University of Oxford](http://www.ox.ac.uk/)
   * 2019, visiting researcher in the [FDB group](https://fdbresearch.github.io/).
@@ -53,6 +53,7 @@ I love teaching, mainly competitive programming and combinatorics. I also enjoy 
 
 ## Selected Publications
 
+* Nofar Carmeli, Shai Zeevi, Christoph Berkholz, Benny Kimelfeld and Nicole Schweikardt, [*Answering (Unions of) Conjunctive Queries using Random Access and Random-Order Enumeration*](https://arxiv.org/abs/1912.10704). In: The Symposium on Principles of Database Systems, PODS 2020.
 * Nofar Carmeli and Markus Kröll, [*Enumeration Complexity of Unions of Conjunctive Queries*](https://arxiv.org/abs/1812.03831). In: The Symposium on Principles of Database Systems, PODS 2019.
   * Won the PODS 2019 Best Student Paper Award.
   * Invited for a special issue of ACM Transaction on Database Systems (TODS) on selected publications from PODS 2019.
