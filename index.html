@@ -17,11 +17,11 @@ a:hover {color:#f44336}
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
+  <div class="w3-container w3-center">
     <img class="w3-circle" src="resources/nofar.jpg" style="width:100%;" alt="Nofar">
     <h2><b>Nofar Carmeli</b></h2>
   </div>
-  <div class="w3-bar-block">
+  <div class="w3-bar-block w3-center">
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
     <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
     <a href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Teaching</a>
@@ -65,7 +65,11 @@ a:hover {color:#f44336}
       This is done either by providing an efficient algorithm for answering the query,
       or by proving that an algorithm with a given complexity cannot be achieved.
     </p>
-    <ul class="w3-ul w3-light-grey w3-center">
+    <p>
+      The following links to material related to my thesis by topic.
+      For a full list of publications, see <a target="_blank" href="https://scholar.google.com/citations?user=dG3WYqMAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://dblp.org/pers/c/Carmeli:Nofar.html">dblp</a>.
+    </p>
+    <ul class="w3-ul w3-light-grey">
       <li class="w3-padding-16">
         <h2>Answering Queries in Random Order</h2>
         <h5 class="w3-opacity">Nofar Carmeli, Shai Zeevi, Christoph Berkholz, Benny Kimelfeld and Nicole Schweikardt</h5>
@@ -140,21 +144,22 @@ a:hover {color:#f44336}
   <div class="w3-container" id="teaching" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Teaching</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>
-      <b class="w3-xlarge">Classes I taught.</b>
-      <br>
-      <a target="_blank" href="https://webcourse.cs.technion.ac.il/234141">Combinatorics for CS:</a>
-      lecturer (summer18, summer17), TA in charge (winter16, winter15, spring15), TA (spring16, spring13).
-      <br>
-      <a target="_blank" href="https://webcourse.cs.technion.ac.il/234901">Workshop in Competitive Programming:</a>
-      TA in charge (spring19, spring18), TA (spring17, spring16).
-      <br>
-      <a target="_blank" href="https://webcourse.cs.technion.ac.il/234292">Logic for CS:</a>
-      TA (winter19).
-      <br>
-      <a target="_blank" href="https://webcourse.cs.technion.ac.il/234218">Data Structures 1:</a>
-      TA (spring14).
-    </p>
+    <p><b class="w3-xlarge">Classes I taught.</b></p>
+    <ul>
+      <li>
+        <a target="_blank" href="https://webcourse.cs.technion.ac.il/234141">Combinatorics for CS:</a>
+        lecturer (summer18, summer17), TA in charge (winter16, winter15, spring15), TA (spring16, spring13).
+      </li><li>
+        <a target="_blank" href="https://webcourse.cs.technion.ac.il/234901">Workshop in Competitive Programming:</a>
+        TA in charge (spring19, spring18), TA (spring17, spring16).
+      </li><li>
+        <a target="_blank" href="https://webcourse.cs.technion.ac.il/234292">Logic for CS:</a>
+        TA (winter19).
+      </li><li>
+        <a target="_blank" href="https://webcourse.cs.technion.ac.il/234218">Data Structures 1:</a>
+        TA (spring14).
+      </li>
+    </ul>
     <p>
       <b class="w3-xlarge">Combinatorics.</b>
       This is the first class I taught, two years into my undergraduate studies, and my favorite "standard" class to teach.
@@ -292,14 +297,6 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
 }
 </script>
 
