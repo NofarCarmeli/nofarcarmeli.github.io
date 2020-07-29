@@ -24,6 +24,7 @@ a:hover {color:#f44336}
   <div class="w3-bar-block w3-center">
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
     <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
+    <a href="#talks" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Talks</a>
     <a href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Teaching</a>
     <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experience</a>
   </div>
@@ -69,11 +70,11 @@ a:hover {color:#f44336}
       The following links to material related to my thesis by topic.
       For a full list of publications, see <a target="_blank" href="https://scholar.google.com/citations?user=dG3WYqMAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://dblp.org/pers/c/Carmeli:Nofar.html">dblp</a>.
     </p>
-    <ul class="w3-ul w3-light-grey">
+    <ul class="w3-ul w3-light-grey w3-center">
       <li class="w3-padding-16">
         <h2>Answering Queries in Random Order</h2>
         <h5 class="w3-opacity">Nofar Carmeli, Shai Zeevi, Christoph Berkholz, Benny Kimelfeld and Nicole Schweikardt</h5>
-        <p>When can we answer queries in a uniformly random order with linear preprocessing and polylogarithmic delay?
+        <p class="w3-left-align">When can we answer queries in a uniformly random order with linear preprocessing and polylogarithmic delay?
           We propose an algorithm for random permutation that relies on random access to the query answers, and we
           inspect when conjunctive queries and unions of conjunctive queries admit efficient algorithms for these two tasks.
         </p>
@@ -83,12 +84,11 @@ a:hover {color:#f44336}
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1912.10704">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3375395.3387662">PODS 20</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesRandomOrderQueryAnswering.pdf">Slides</a>
-        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=IGyTM5UwxE8">Talk</a>
       </li>
       <li class="w3-padding-16">
         <h2>Answering Unions of Conjunctive Queries</h2>
         <h5 class="w3-opacity">Nofar Carmeli and Markus Kröll</h5>
-        <p>Which unions of conjunctive queries can be answered with constant delay following linear preprocessing?
+        <p class="w3-left-align">Which unions of conjunctive queries can be answered with constant delay following linear preprocessing?
           A union of tractable CQs is always tractable.
           We show that some unions containing intractable CQs are, in fact, tractable.
           Interestingly, some unions consisting of only intractable CQs are tractable too.
@@ -101,12 +101,12 @@ a:hover {color:#f44336}
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1812.03831">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3294052.3319700">PODS 19</a>
-        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://av.tib.eu/media/42887">Talk</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="#UCQsTalk">Talk</a>
       </li>
       <li class="w3-padding-16">
         <h2>Answering Conjunctive Queries with Functional Dependencies</h2>
         <h5 class="w3-opacity">Nofar Carmeli and Markus Kröll</h5>
-        <p>A known dichotomy identifies which conjunctive queries can be answered with constant delay following linear preprocessing.
+        <p class="w3-left-align">A known dichotomy identifies which conjunctive queries can be answered with constant delay following linear preprocessing.
           What happens in the common case the database exhibits dependencies among attributes?
           Some queries classified as hard are in fact tractable if dependencies are accounted for.
           We generalize the dichotomy to accommodate functional dependencies and cardinality dependencies.
@@ -124,7 +124,7 @@ a:hover {color:#f44336}
       <li class="w3-padding-16">
         <h2>Finding Tree Decompositions</h2>
         <h5 class="w3-opacity">Nofar Carmeli, Batya Kenig and Benny Kimelfeld</h5>
-        <p>Tree decompositions can be used to optimize join queries, but finding the best decomposition is NP-hard.
+        <p class="w3-left-align">Tree decompositions can be used to optimize join queries, but finding the best decomposition is NP-hard.
           We present an algorithm that enumerates all the proper tree decompositions (or minimal triangulations) of a graph in incremental polynomial time.
           This can be used as an anytime algorithm to improve on any method for finding a single tree decomposition (or triangulation).
         </p>
@@ -135,10 +135,35 @@ a:hover {color:#f44336}
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3034786.3056109">PODS 17</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0166218X20302924">DAM 20</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://github.com/NofarCarmeli/MinTriangulationsEnumeration">Code</a>
-        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://youtu.be/Wb8HMgoo_HE?t=3551">Talk</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="#TriangulationsTalk">Talk</a>
       </li>
     </ul>
   </div>
+
+  <!-- Talks -->
+  <div class="w3-container" id="talks" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Recorded Talks</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <ul class="w3-ul w3-light-grey w3-center">
+      <li class="w3-padding-16">
+        <h4>The Complexity of Answering Unions of Conjunctive Queries</h4>
+        <h5 class="w3-opacity">TAU Theory Fest - Fine Grained Complexity workshop, Tel Aviv, January 2<sup>nd</sup> 2020</h5>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesUCQsFineGrained.pdf">Slides</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=IGyTM5UwxE8">Watch</a>
+      </li>
+      <li id="UCQsTalk" class="w3-padding-16">
+        <h4>On the Enumeration Complexity of Unions of Conjunctive Queries</h4>
+        <h5 class="w3-opacity">The Symposium on Principles of Database Systems (PODS), Amsterdam, July 1<sup>st</sup> 2019</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CdD97CPAHwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </li>
+      <li id="TriangulationsTalk" class="w3-padding-16">
+        <h4>Efficiently Enumerating Minimal Triangulations</h4>
+        <h5 class="w3-opacity">The Symposium on Principles of Database Systems (PODS), Chicago, May 16<sup>th</sup> 2017</h5>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://youtu.be/Wb8HMgoo_HE?t=3551">Watch</a>
+      </li>
+    </ul>
+  </div>
+
 
   <!-- Teaching -->
   <div class="w3-container" id="teaching" style="margin-top:75px">
