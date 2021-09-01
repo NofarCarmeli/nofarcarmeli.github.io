@@ -103,7 +103,7 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesRandomOrderQueryAnswering.pdf">Slides</a>
       </li>
       <li class="w3-padding-16 w3-light-grey">
-        <h2>Answering Unions of Conjunctive Queries</h2>
+        <h2>Answering Unions of Conjunctive Queries (UCQs)</h2>
         <h5 class="w3-opacity">Nofar Carmeli and Markus Kröll</h5>
         <p class="w3-left-align">Which unions of conjunctive queries can be answered with constant delay following linear preprocessing?
           A union of tractable CQs is always tractable.
@@ -121,7 +121,7 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#UCQsTalk">Talk</a>
       </li>
       <li class="w3-padding-16 w3-light-grey">
-        <h2>Answering Conjunctive Queries with Functional Dependencies</h2>
+        <h2>Answering Conjunctive Queries with Functional Dependencies (FDs)</h2>
         <h5 class="w3-opacity">Nofar Carmeli and Markus Kröll</h5>
         <p class="w3-left-align">A known dichotomy identifies which conjunctive queries can be answered with constant delay following linear preprocessing.
           What happens in the common case the database exhibits dependencies among attributes?
@@ -139,7 +139,7 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesCQsWithFDs.pdf">Slides</a>
       </li>
       <li class="w3-padding-16 w3-light-grey">
-        <h2>Finding Tree Decompositions</h2>
+        <h2>Finding Tree Decompositions (TDs)</h2>
         <h5 class="w3-opacity">Nofar Carmeli, Batya Kenig and Benny Kimelfeld</h5>
         <p class="w3-left-align">Tree decompositions can be used to optimize join queries, but finding the best decomposition is NP-hard.
           We present an algorithm that enumerates all the proper tree decompositions (or minimal triangulations) of a graph in incremental polynomial time.
@@ -161,31 +161,57 @@ margin: auto;
   <div class="w3-container" id="talks" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Recorded Talks</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <ul class="w3-ul w3-center">
-      <li class="w3-padding-16 w3-light-grey">
-        <h4>The Complexity of Answering Unions of Conjunctive Queries (thesis overview)</h4>
-        <h5 class="w3-opacity">The seminar of the Formal Methods group at LaBRI, Bordeaux , March 2<sup>nd</sup> 2021</h5>
-        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://youtu.be/xizSlZoywcI">Watch</a>
-      </li>
-      <li class="w3-padding-16 w3-light-grey">
-        <h4>The Complexity of Answering Unions of Conjunctive Queries</h4>
-        <h5 class="w3-opacity">TAU Theory Fest - Fine Grained Complexity workshop, Tel Aviv, January 2<sup>nd</sup> 2020</h5>
+    <table class="w3-table w3-bordered">
+    <tr>
+      <th></th>
+      <th>Date</th>
+      <th>Length</th>
+      <th class="w3-text-red">Topics</th>
+      <th>Venue</th>
+    </tr>
+    <tr>
+      <td><a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=T6hnOMWSRJw&list=PL3xUNnH4TdbtfsayZBft1QXOAnWluxz9G&ab_channel=SIGMOD2021">Video</a></td>
+      <td>22/06/21</td>
+      <td>12:29</td>
+      <td class="w3-text-red">ranked direct access</td>
+      <td>The Symposium on Principles of Database Systems (PODS)</td>
+    </tr>
+    <tr>
+      <td><a class="w3-button w3-white w3-hover-red" target="_blank" href="https://youtu.be/xizSlZoywcI">Video</a></td>
+      <td>02/03/21</td>
+      <td>48:35</td>
+      <td class="w3-text-red">TDs, FDs, UCQs, random order</td>
+      <td>The seminar of the Formal Methods group at LaBRI, Bordeaux</td>
+    </tr>
+    <tr>
+      <td>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=IGyTM5UwxE8">Video</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesUCQsFineGrained.pdf">Slides</a>
-        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=IGyTM5UwxE8">Watch</a>
-      </li>
-      <li id="UCQsTalk" class="w3-padding-16 w3-light-grey">
-        <h4>On the Enumeration Complexity of Unions of Conjunctive Queries</h4>
-        <h5 class="w3-opacity">The Symposium on Principles of Database Systems (PODS), Amsterdam, July 1<sup>st</sup> 2019</h5>
-        <div class="video-wrap"><div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/CdD97CPAHwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div></div>
-      </li>
-      <li id="TriangulationsTalk" class="w3-padding-16 w3-light-grey">
-        <h4>Efficiently Enumerating Minimal Triangulations</h4>
-        <h5 class="w3-opacity">The Symposium on Principles of Database Systems (PODS), Chicago, May 16<sup>th</sup> 2017</h5>
-        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://youtu.be/Wb8HMgoo_HE?t=3551">Watch</a>
-      </li>
-    </ul>
+      </td>
+      <td>02/01/20</td>
+      <td>16:02</td>
+      <td class="w3-text-red">random order, UCQs</td>
+      <td>TAU Theory Fest - Fine Grained Complexity workshop, Tel Aviv</td>
+    </tr>
+    <tr>
+      <td>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://av.tib.eu/media/42887">Video</a>
+      </td>
+      <td>01/07/19</td>
+      <td>19:29</td>
+      <td class="w3-text-red">UCQs</td>
+      <td>The Symposium on Principles of Database Systems (PODS), Amsterdam</td>
+    </tr>
+    <tr>
+      <td>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://youtu.be/Wb8HMgoo_HE?t=3551">Video</a>
+      </td>
+      <td>16/05/17</td>
+      <td>20:00</td>
+      <td class="w3-text-red">TDs</td>
+      <td>The Symposium on Principles of Database Systems (PODS), Chicago</td>
+    </tr>
+    </table>
   </div>
 
 
