@@ -80,58 +80,52 @@ margin: auto;
   <div class="w3-container" id="research" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Research</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>
-      The complexity of listing query answers over a database depends on the query structure. However, a query with a naturally difficult structure can sometimes be adjusted into an easy form by using additional information. My work aims at identifying how fast we can solve any given query. This is done either by providing an efficient algorithm for answering the query or by proving that an algorithm with a given complexity cannot be achieved.
-    </p>
-    <p>
-      The following are links to resources related to my <a target="_blank" href="http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2020/PHD/PHD-2020-09">thesis</a> by topic.
-      For a full list of publications, see <a target="_blank" href="https://scholar.google.com/citations?user=dG3WYqMAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://dblp.org/pers/c/Carmeli:Nofar.html">dblp</a>.
-    </p>
     <ul class="w3-ul w3-center">
       <li class="w3-padding-16 w3-light-grey">
-        <h2>Answering Queries in Random Order</h2>
-        <h5 class="w3-opacity">Nofar Carmeli, Shai Zeevi, Christoph Berkholz, Benny Kimelfeld and Nicole Schweikardt</h5>
-        <p class="w3-left-align">When can we answer queries in a uniformly random order with linear preprocessing and polylogarithmic delay?
+        <h2>Answering Queries</h2>
+        <p class="w3-left-align"><b class="w3-xlarge">Ranked direct access to answers.</b>
+          An array holding the sorted list of query answers can be useful in many scenarios, even where we do not need all answers (e.g., building a boxplot).
+          When can we efficiently simulate such an array with only linear time? We focus on conjunctive queries, lexicographic orders and order by sum of weights.
+          <span class="w3-opacity">
+            Published as "Tractable Orders for Direct Access to Ranked Answers of Conjunctive Queries".
+          </span>
+        </p>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2012.11965">Arxiv</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3452021.3458331">PODS 21</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="#rankedAccessTalk">Talk</a>
+        <p class="w3-left-align"><b class="w3-xlarge">Enumerating answers in random order.</b> When can we answer queries in a uniformly random order with linear preprocessing and polylogarithmic delay?
           We propose an algorithm for random permutation that relies on random access to the query answers, and we
           inspect when conjunctive queries and unions of conjunctive queries admit efficient algorithms for these two tasks.
-        </p>
-        <p class="w3-opacity">
-          Published as "Answering (Unions of) Conjunctive Queries using Random Access and Random-Order Enumeration".
+          <span class="w3-opacity">
+            Published as "Answering (Unions of) Conjunctive Queries using Random Access and Random-Order Enumeration".
+          </span>
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1912.10704">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3375395.3387662">PODS 20</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesRandomOrderQueryAnswering.pdf">Slides</a>
-      </li>
-      <li class="w3-padding-16 w3-light-grey">
-        <h2>Answering Unions of Conjunctive Queries (UCQs)</h2>
-        <h5 class="w3-opacity">Nofar Carmeli and Markus Kröll</h5>
-        <p class="w3-left-align">Which unions of conjunctive queries can be answered with constant delay following linear preprocessing?
+        <p class="w3-left-align"><b class="w3-xlarge">Answering Unions of Conjunctive Queries (UCQs).</b> Which unions of conjunctive queries can be answered with constant delay following linear preprocessing?
           A union of tractable CQs is always tractable.
           We show that some unions containing intractable CQs are, in fact, tractable.
           Interestingly, some unions consisting of only intractable CQs are tractable too.
           We prove that for several classes of queries, free-connexity fully captures the tractable UCQs.
-        </p>
-        <p class="w3-opacity">
-          PODS 2019 Best Student Paper. Published as "Enumeration Complexity of Unions of Conjunctive Queries".
-          <br>
+        <span class="w3-opacity">
+          Published as "Enumeration Complexity of Unions of Conjunctive Queries".
           Invited for a special issue of ACM Transaction on Database Systems (TODS) on selected publications from PODS 2019.
+          PODS 2019 Best Student Paper.
+        </span>
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1812.03831">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3294052.3319700">PODS 19</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3450263">TODS 21</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#UCQsTalk">Talk</a>
-      </li>
-      <li class="w3-padding-16 w3-light-grey">
-        <h2>Answering Conjunctive Queries with Functional Dependencies (FDs)</h2>
-        <h5 class="w3-opacity">Nofar Carmeli and Markus Kröll</h5>
-        <p class="w3-left-align">A known dichotomy identifies which conjunctive queries can be answered with constant delay following linear preprocessing.
+        <p class="w3-left-align"><b class="w3-xlarge">Answering CQs with Functional Dependencies (FDs).</b> A known dichotomy identifies which conjunctive queries can be answered with constant delay following linear preprocessing.
           What happens in the common case the database exhibits dependencies among attributes?
           Some queries classified as hard are in fact tractable if dependencies are accounted for.
           We generalize the dichotomy to accommodate functional dependencies and cardinality dependencies.
-        </p>
-        <p class="w3-opacity">
+        <span class="w3-opacity">
           Published as "Enumeration Complexity of Conjunctive Queries with Functional Dependencies".
-          <br>
           Invited for a special issue of Theory of Computing Systems (TOCS) on selected publications from ICDT 2018.
+        </span>
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1712.07880">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://drops.dagstuhl.de/opus/volltexte/2018/8598/pdf/LIPIcs-ICDT-2018-11.pdf">ICDT 18</a>
@@ -139,14 +133,46 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesCQsWithFDs.pdf">Slides</a>
       </li>
       <li class="w3-padding-16 w3-light-grey">
-        <h2>Finding Tree Decompositions (TDs)</h2>
-        <h5 class="w3-opacity">Nofar Carmeli, Batya Kenig and Benny Kimelfeld</h5>
-        <p class="w3-left-align">Tree decompositions can be used to optimize join queries, but finding the best decomposition is NP-hard.
+        <h2>Other Topics</h2>
+        <p class="w3-left-align"><b class="w3-xlarge">Repairing using soft FDs.</b>
+          Assume we have a database that contains noise in the form of redundant facts, and we have constraints in the form of Functional Dependencies (FDs) that are interpreted as soft: they do not necessarily always hold.
+          Instead, every violation and every removal of a fact from the database are penalized.
+          When can we efficiently find an optimal subset of the database?
+        <span class="w3-opacity">
+          Published as "Database Repairing with Soft Functional Dependencies".
+          Invited for a special issue of ACM Transaction on Database Systems (TODS) on selected publications from ICDT 2021.
+        </span>
+        </p>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2009.13821">Arxiv</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://drops.dagstuhl.de/opus/volltexte/2021/13724/">ICDT 21</a>
+        <p class="w3-left-align"><b class="w3-xlarge">Representing infinite PDBs.</b>
+          Infinite Probabilistic DataBases (PDBs) model uncertainty when the possible values are not restricted to a finite domain.
+          In the finite case, tuple-independent representations have many advantages, but in the infinite they cannot always be used.
+          When can they represent the desired infinite PDB?
+        <span class="w3-opacity">
+          Published as "Tuple-Independent Representations of Infinite Probabilistic Databases".
+        </span>
+        </p>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2008.09511">Arxiv</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3452021.3458315">PODS 21</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=Asjnf87_BUE&list=PL3xUNnH4TdbtfsayZBft1QXOAnWluxz9G&ab_channel=SIGMOD2021">Talk</a>
+        <p class="w3-left-align"><b class="w3-xlarge">Summarizing reviews with structural explanations.</b>
+          Given a large number of reviews expressing opinions regarding a product, we want to automatically build a graph describing the (deduplicated) opinions expressed in the reviews,
+          together with the explanation relationship (e.g. "walking distance to the beach" explains "great location").
+        <span class="w3-opacity">
+          Published as "ExtremeReader: An interactive explorer for customizable and explainable review summarization" and "Constructing Explainable Opinion Graphs from Reviews".
+        </span>
+        </p>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2006.00119">Arxiv</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3366424.3383535">WWW 20</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3442381.3450081">WWW 21</a>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://megagon.ai/projects/extremereader/">Project Page</a>
+        <p class="w3-left-align"><b class="w3-xlarge">Finding Tree Decompositions (TDs).</b> Tree decompositions can be used to optimize join queries, but finding the best decomposition is NP-hard.
           We present an algorithm that enumerates all the proper tree decompositions (or minimal triangulations) of a graph in incremental polynomial time.
           This can be used as an anytime algorithm to improve on any method for finding a single tree decomposition (or triangulation).
-        </p>
-        <p class="w3-opacity">
+        <span class="w3-opacity">
           Published as "Efficiently Enumerating Minimal Triangulations".
+        </span>
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1604.02833">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3034786.3056109">PODS 17</a>
@@ -154,7 +180,21 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://github.com/NofarCarmeli/MinTriangulationsEnumeration">Code</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#TriangulationsTalk">Talk</a>
       </li>
+      <li class="w3-padding-16 w3-light-grey">
+        <h2>Ph.D. Thesis</h2>
+        <h3>"The Power of Implicit Acyclicity in the Enumeration Complexity of Database Queries"</h3>
+        <p class="w3-left-align">
+          The complexity of listing (= enumerating) query answers over a database depends on the query structure (acyclic is easy).
+          However, a query with a naturally difficult structure can sometimes be adjusted into an easy form by using commonly available additional information (hence implicit acyclicity).
+          My work aims at identifying how fast we can solve any given query.
+          This is done either by providing an efficient algorithm for answering the query or by proving that an algorithm with a given complexity cannot be achieved.
+        </p>
+        <a class="w3-button w3-white w3-hover-red" target="_blank" href="http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2020/PHD/PHD-2020-09">Thesis</a>
+      </li>
     </ul>
+    <p>
+      For a full list of publications, see <a target="_blank" href="https://scholar.google.com/citations?user=dG3WYqMAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://dblp.org/pers/c/Carmeli:Nofar.html">dblp</a>.
+    </p>
   </div>
 
   <!-- Talks -->
@@ -169,7 +209,7 @@ margin: auto;
       <th class="w3-text-red">Topics</th>
       <th>Venue</th>
     </tr>
-    <tr>
+    <tr id="rankedAccessTalk">
       <td><a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=T6hnOMWSRJw&list=PL3xUNnH4TdbtfsayZBft1QXOAnWluxz9G&ab_channel=SIGMOD2021">Video</a></td>
       <td>22/06/21</td>
       <td>12:29</td>
@@ -193,7 +233,7 @@ margin: auto;
       <td class="w3-text-red">random order, UCQs</td>
       <td>TAU Theory Fest - Fine Grained Complexity workshop, Tel Aviv</td>
     </tr>
-    <tr>
+    <tr id="UCQsTalk">
       <td>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://av.tib.eu/media/42887">Video</a>
       </td>
@@ -202,7 +242,7 @@ margin: auto;
       <td class="w3-text-red">UCQs</td>
       <td>The Symposium on Principles of Database Systems (PODS), Amsterdam</td>
     </tr>
-    <tr>
+    <tr id="TriangulationsTalk">
       <td>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://youtu.be/Wb8HMgoo_HE?t=3551">Video</a>
       </td>
