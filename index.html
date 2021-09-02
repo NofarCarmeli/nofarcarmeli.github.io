@@ -83,9 +83,9 @@ margin: auto;
     <ul class="w3-ul w3-center">
       <li class="w3-padding-16 w3-light-grey">
         <h2>Answering Queries</h2>
-        <p class="w3-left-align"><b class="w3-xlarge">Ranked direct access to answers.</b>
-          An array holding the sorted list of query answers can be useful in many scenarios, even where we do not need all answers (e.g., building a boxplot).
-          When can we efficiently simulate such an array with only linear time? We focus on conjunctive queries, lexicographic orders and order by sum of weights.
+        <p class="w3-left-align"><b class="w3-xlarge">Accessing ranked answers.</b>
+          An array holding the sorted list of query answers can be useful in many scenarios, even when we do not need all answers (e.g., for creating a boxplot).
+          When can we efficiently simulate such an array with only linear preprocessing and polylogarithmic overhead? We looked into conjunctive queries with lexicographic or sum of weights orders.
           <span class="w3-opacity">
             Published as "Tractable Orders for Direct Access to Ranked Answers of Conjunctive Queries".
           </span>
@@ -93,8 +93,10 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2012.11965">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3452021.3458331">PODS 21</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#rankedAccessTalk">Talk</a>
-        <p class="w3-left-align"><b class="w3-xlarge">Enumerating answers in random order.</b> When can we answer queries in a uniformly random order with linear preprocessing and polylogarithmic delay?
-          We propose an algorithm for random permutation that relies on random access to the query answers, and we
+        <p class="w3-left-align"><b class="w3-xlarge">Enumerating answers in random order.</b>
+          We would like to efficiently list all query answers in uniformly random order, so every prefix of the answers is statistically meaningful.
+          When can this be achieved with only linear preprocessing and polylogarithmic delay?
+          We propose an algorithm that uses direct access to the query answers, and we
           inspect when conjunctive queries and unions of conjunctive queries admit efficient algorithms for these two tasks.
           <span class="w3-opacity">
             Published as "Answering (Unions of) Conjunctive Queries using Random Access and Random-Order Enumeration".
@@ -103,34 +105,33 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1912.10704">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3375395.3387662">PODS 20</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesRandomOrderQueryAnswering.pdf">Slides</a>
-        <p class="w3-left-align"><b class="w3-xlarge">Answering Unions of Conjunctive Queries (UCQs).</b> Which unions of conjunctive queries can be answered with constant delay following linear preprocessing?
-          A union of tractable CQs is always tractable.
-          We show that some unions containing intractable CQs are, in fact, tractable.
-          Interestingly, some unions consisting of only intractable CQs are tractable too.
-          We prove that for several classes of queries, free-connexity fully captures the tractable UCQs.
+        <p class="w3-left-align"><b class="w3-xlarge">Answering Unions of Conjunctive Queries (UCQs).</b>
+          When can we list the answers to UCQs with optimal time guarantees (linear preprocessing and constant delay)?
+          Among our results, we show that the tractable cases are not limited to unions of tractable CQs, and in fact, some unions consisting of only intractable CQs are tractable too.
         <span class="w3-opacity">
-          Published as "Enumeration Complexity of Unions of Conjunctive Queries".
-          Invited for a special issue of ACM Transaction on Database Systems (TODS) on selected publications from PODS 2019.
-          PODS 2019 Best Student Paper.
+          Published as "Enumeration Complexity of Unions of Conjunctive Queries".<sup>(1)(2)</sup>
         </span>
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1812.03831">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3294052.3319700">PODS 19</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3450263">TODS 21</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#UCQsTalk">Talk</a>
-        <p class="w3-left-align"><b class="w3-xlarge">Answering CQs with Functional Dependencies (FDs).</b> A known dichotomy identifies which conjunctive queries can be answered with constant delay following linear preprocessing.
-          What happens in the common case the database exhibits dependencies among attributes?
-          Some queries classified as hard are in fact tractable if dependencies are accounted for.
-          We generalize the dichotomy to accommodate functional dependencies and cardinality dependencies.
+        <p class="w3-left-align"><b class="w3-xlarge">Answering CQs with Functional Dependencies (FDs).</b>
+          Very often databases contain dependencies among attributes, and some queries classified as hard over general databases become tractable if we are allowed to exploit these dependencies.
+          We inspect in which cases the dependencies are enough to make conjunctive queries solvable with optimal time guarantees (linear preprocessing and constant delay).
         <span class="w3-opacity">
-          Published as "Enumeration Complexity of Conjunctive Queries with Functional Dependencies".
-          Invited for a special issue of Theory of Computing Systems (TOCS) on selected publications from ICDT 2018.
+          Published as "Enumeration Complexity of Conjunctive Queries with Functional Dependencies".<sup>(1)</sup>
         </span>
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/1712.07880">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://drops.dagstuhl.de/opus/volltexte/2018/8598/pdf/LIPIcs-ICDT-2018-11.pdf">ICDT 18</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://link.springer.com/article/10.1007/s00224-019-09937-9">TOCS 19</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/slidesCQsWithFDs.pdf">Slides</a>
+        <p class="w3-opacity">
+          (1) Invited for a special issue of the journal on selected publications from the conference.
+        <br>
+          (2) PODS 2019 Best Student Paper.
+        </p>
       </li>
       <li class="w3-padding-16 w3-light-grey">
         <h2>Other Topics</h2>
@@ -139,15 +140,14 @@ margin: auto;
           Instead, every violation and every removal of a fact from the database are penalized.
           When can we efficiently find an optimal subset of the database?
         <span class="w3-opacity">
-          Published as "Database Repairing with Soft Functional Dependencies".
-          Invited for a special issue of ACM Transaction on Database Systems (TODS) on selected publications from ICDT 2021.
+          Published as "Database Repairing with Soft Functional Dependencies".<sup>(1)</sup>
         </span>
         </p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2009.13821">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://drops.dagstuhl.de/opus/volltexte/2021/13724/">ICDT 21</a>
         <p class="w3-left-align"><b class="w3-xlarge">Representing infinite PDBs.</b>
           Infinite Probabilistic DataBases (PDBs) model uncertainty when the possible values are not restricted to a finite domain.
-          In the finite case, tuple-independent representations have many advantages, but in the infinite they cannot always be used.
+          In the finite case, tuple-independent representations have many advantages, but in the infinite, they cannot always be used.
           When can they represent the desired infinite PDB?
         <span class="w3-opacity">
           Published as "Tuple-Independent Representations of Infinite Probabilistic Databases".
@@ -167,8 +167,9 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3366424.3383535">WWW 20</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3442381.3450081">WWW 21</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://megagon.ai/projects/extremereader/">Project Page</a>
-        <p class="w3-left-align"><b class="w3-xlarge">Finding Tree Decompositions (TDs).</b> Tree decompositions can be used to optimize join queries, but finding the best decomposition is NP-hard.
-          We present an algorithm that enumerates all the proper tree decompositions (or minimal triangulations) of a graph in incremental polynomial time.
+        <p class="w3-left-align"><b class="w3-xlarge">Finding Tree Decompositions (TDs).</b>
+          Tree decompositions can be used to optimize join queries, but finding the best decomposition is  known to be hard.
+          We propose an algorithm that enumerates all the proper tree decompositions (or minimal triangulations) of a graph in incremental polynomial time.
           This can be used as an anytime algorithm to improve on any method for finding a single tree decomposition (or triangulation).
         <span class="w3-opacity">
           Published as "Efficiently Enumerating Minimal Triangulations".
@@ -179,13 +180,16 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0166218X20302924">DAM 20</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://github.com/NofarCarmeli/MinTriangulationsEnumeration">Code</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#TriangulationsTalk">Talk</a>
+        <p class="w3-opacity">
+          (1) Invited for a special issue of ACM Transaction on Database Systems (TODS) on selected publications from ICDT 2021.
+        </p>
       </li>
       <li class="w3-padding-16 w3-light-grey">
         <h2>Ph.D. Thesis</h2>
         <h3>"The Power of Implicit Acyclicity in the Enumeration Complexity of Database Queries"</h3>
         <p class="w3-left-align">
           The complexity of listing (= enumerating) query answers over a database depends on the query structure (acyclic is easy).
-          However, a query with a naturally difficult structure can sometimes be adjusted into an easy form by using commonly available additional information (hence implicit acyclicity).
+          However, a query with a naturally difficult structure can sometimes be adjusted into an easy form by using commonly available additional information (hence the acyclicity is implicit).
           My work aims at identifying how fast we can solve any given query.
           This is done either by providing an efficient algorithm for answering the query or by proving that an algorithm with a given complexity cannot be achieved.
         </p>
