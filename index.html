@@ -47,7 +47,7 @@ margin: auto;
     <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
     <a href="#talks" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Talks</a>
     <a href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Teaching</a>
-    <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experience</a>
+    <a href="#background" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Background</a>
   </div>
 </nav>
 
@@ -79,9 +79,18 @@ margin: auto;
   <div class="w3-container" id="research" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Research</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
+	<p class="w3-left-align">
+	  My research interests revolve around the theory of data management and enumeration complexity.
+      For a full list of publications, see <a target="_blank" href="https://scholar.google.com/citations?user=dG3WYqMAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://dblp.org/pers/c/Carmeli:Nofar.html">dblp</a>.
+    </p>
     <ul class="w3-ul w3-center">
       <li class="w3-padding-16 w3-light-grey">
         <h2>Answering Queries</h2>
+		<p><span class="w3-opacity">
+		  As the data we wish to process becomes bigger, there is an increasing interest in the fine-grained analysis of query answering problems over databases.
+		  This line of research aspires to determine, for any given query that the user wants to compute, what is an algorithm that runs with optimal guarantees.
+		  So far, I focused mostly on identifying the query structures that can be answered with near-optimal time guarantees.
+		</span></p>
         <p class="w3-left-align"><b class="w3-xlarge">Accessing ranked answers.</b>
           An array holding the sorted list of query answers can be useful in many scenarios, even when we do not need all answers (e.g., for creating a boxplot).
           When can we efficiently simulate such an array with only linear preprocessing and polylogarithmic overhead? We looked into conjunctive queries with lexicographic or sum of weights orders.
@@ -135,6 +144,11 @@ margin: auto;
       </li>
       <li class="w3-padding-16 w3-light-grey">
         <h2>Other Topics</h2>
+		<p><span class="w3-opacity">
+		  While the previous section focused on cases where things can be done very efficiently, life is not always that simple.
+		  This section proposes solutions for when databases contain uncertainty (in the form of noise that need to be cleaned or probabilistic databases),
+		  when data does not appear in a neat structured form, or when the queries we want to answer cannot be quickly tweaked into a tractable acyclic form.
+		</span></p>
         <p class="w3-left-align"><b class="w3-xlarge">Repairing using soft FDs.</b>
           Assume we have a database that contains noise in the form of redundant facts, and we have constraints in the form of Functional Dependencies (FDs) that are interpreted as soft: they do not necessarily always hold.
           Instead, every violation and every removal of a fact from the database are penalized.
@@ -198,9 +212,6 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#ThesisTalk">Talk</a>
       </li>
     </ul>
-    <p>
-      For a full list of publications, see <a target="_blank" href="https://scholar.google.com/citations?user=dG3WYqMAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://dblp.org/pers/c/Carmeli:Nofar.html">dblp</a>.
-    </p>
   </div>
 
   <!-- Talks -->
@@ -307,8 +318,8 @@ margin: auto;
   </div>
 
   <!-- Experience -->
-  <div class="w3-container" id="experience" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Experience</b></h1>
+  <div class="w3-container" id="background" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Professional Background</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
   </div>
   <div class="w3-row-padding">
