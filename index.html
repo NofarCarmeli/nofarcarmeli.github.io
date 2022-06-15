@@ -93,7 +93,9 @@ margin: auto;
 		</span></p>
         <p class="w3-left-align"><b class="w3-xlarge">Accessing ranked answers.</b>
           An array holding the sorted list of query answers can be useful in many scenarios, even when we do not need all answers (e.g., for creating a boxplot).
-          When can we efficiently simulate such an array with only linear preprocessing and polylogarithmic overhead? We looked into conjunctive queries with lexicographic or sum of weights orders.
+		  Can we simulate such an array much more efficiently than materializing it?
+		  </p><p class="w3-left-align">
+          When can we simulate such an array with only linear preprocessing and polylogarithmic overhead? We looked into conjunctive queries with lexicographic or sum of weights orders.
           <span class="w3-opacity">
             Published as "Tractable Orders for Direct Access to Ranked Answers of Conjunctive Queries".<sup>(1)</sup>
           </span>
@@ -101,7 +103,16 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2012.11965">Arxiv</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/RankedAccessPODS.pdf">PODS 21</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#rankedAccessTalk">Talk</a>
-        <p class="w3-left-align"><b class="w3-xlarge">Enumerating answers in random order.</b>
+		<p class="w3-left-align">
+			How much preprocessing do we need to achieve polylogarithmic overhead? We looked into full conjunctive queries with lexicographic orders.
+			  <span class="w3-opacity">
+				Published as "Tight Fine-Grained Bounds for Direct Access on Join Queries".
+			  </span>
+			</p>
+			<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2201.02401">Arxiv</a>
+			<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3517804.3526234">PODS 22</a>
+			<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3517804.3526234#video_stream_uuid%3Afa7d9378-ec86-47af-9f44-3743d6b34c60">Talk</a>
+			<p class="w3-left-align"><b class="w3-xlarge">Enumerating answers in random order.</b>
           We would like to efficiently list all query answers in uniformly random order, so every prefix of the answers is statistically meaningful.
           When can this be achieved with only linear preprocessing and polylogarithmic delay?
           We propose an algorithm that uses direct access to the query answers, and we
@@ -230,7 +241,7 @@ margin: auto;
       <td><a class="w3-button w3-white w3-hover-red" target="_blank" href="https://www.youtube.com/watch?v=T6hnOMWSRJw&list=PL3xUNnH4TdbtfsayZBft1QXOAnWluxz9G&ab_channel=SIGMOD2021">Video</a></td>
       <td>22/06/21</td>
       <td>12:29</td>
-      <td class="w3-text-red">ranked direct access</td>
+      <td class="w3-text-red">ranked access</td>
       <td>The Symposium on Principles of Database Systems (PODS)</td>
     </tr>
     <tr id="ThesisTalk">
