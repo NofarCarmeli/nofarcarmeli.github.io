@@ -68,7 +68,7 @@ margin: auto;
     <h1 class="w3-xxxlarge w3-text-red"><b>About</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>
-	  I am a researcher, employed by Inria, at the BOREAL joint project-team (LIRMM, Inria, Univ Montpellier, CNRS) in Montpellier, France.<br>
+	  I am a researcher, employed by Inria, at the <a target="_blank" href="https://team.inria.fr/boreal/">BOREAL</a> joint project-team (LIRMM, Inria, University of Montpellier, CNRS) in Montpellier, France.<br>
       My research focuses on theoretical aspects of database query optimization.
     </p>
     <p><b class="w3-xlarge">Contact.</b><br> nofar.carmeli at inria.fr<br>
@@ -81,20 +81,19 @@ margin: auto;
     <hr style="width:50px;border:5px solid red" class="w3-round">
 	<p class="w3-left-align">
 	  My research interests revolve around the theory of data management and enumeration complexity.
+	  As the data we wish to process becomes bigger, there is an increasing interest in the fine-grained complexity analysis of query answering problems over databases.
+	  My main line of research aspires to determine, for any given query that the user wants to compute, what is an algorithm that runs with optimal guarantees.
+	  So far, I focused mostly on identifying the query structures that can be answered with near-optimal time guarantees.
       For a full list of publications, see <a target="_blank" href="https://scholar.google.com/citations?user=dG3WYqMAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://dblp.org/pers/c/Carmeli:Nofar.html">dblp</a>.
     </p>
     <ul class="w3-ul w3-center">
       <li class="w3-padding-16 w3-light-grey">
-        <h2>Answering Queries</h2>
+        <h2>Direct Access to Query Answers</h2>
 		<p><span class="w3-opacity">
-		  As the data we wish to process becomes bigger, there is an increasing interest in the fine-grained analysis of query answering problems over databases.
-		  This line of research aspires to determine, for any given query that the user wants to compute, what is an algorithm that runs with optimal guarantees.
-		  So far, I focused mostly on identifying the query structures that can be answered with near-optimal time guarantees.
-		</span></p>
-        <p class="w3-left-align"><b class="w3-xlarge">Accessing ranked answers.</b>
-          An array holding the sorted list of query answers can be useful in many scenarios, even when we do not need all answers (e.g., for creating a boxplot).
+		  An array holding the sorted list of query answers can be useful in many scenarios, even when we do not need all answers (e.g., for finding the median or creating a boxplot), but such an array can be very big, and creating it may take a lot of time.
 		  Can we simulate such an array much more efficiently than materializing it?
-		  </p><p class="w3-left-align">
+		</span></p>
+        <p class="w3-left-align"><b class="w3-xlarge">Dichotomies for Conjunctive Queries (CQs).</b>
           When can we simulate such an array with only linear preprocessing and polylogarithmic overhead? We looked into conjunctive queries with lexicographic or sum of weights orders.
           <span class="w3-opacity">
             Published as "Tractable Orders for Direct Access to Ranked Answers of Conjunctive Queries".<sup>(1)</sup>
@@ -104,19 +103,44 @@ margin: auto;
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/RankedAccessPODS.pdf">PODS 21</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3578517">TODS 23</a>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="#rankedAccessTalk">Talk</a>
-		<p class="w3-left-align">
-			How much preprocessing do we need to achieve polylogarithmic overhead? We looked into full conjunctive queries with lexicographic orders.
-			  <span class="w3-opacity">
-				Published as "Tight Fine-Grained Bounds for Direct Access on Join Queries".
-			  </span>
-			</p>
-			<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2201.02401">Arxiv</a>
-			<a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/AccessPreprocessPODS.pdf">PODS 22</a>
-			<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3517804.3526234#video_stream_uuid%3Afa7d9378-ec86-47af-9f44-3743d6b34c60">Talk</a>
-		<p class="w3-left-align"><b class="w3-xlarge">Enumeration for Queries with Self Joins.</b>
+		<p class="w3-left-align"><b class="w3-xlarge">Preprocessing for Join Queries.</b>
+		  How much preprocessing do we need to achieve polylogarithmic overhead? We looked into full conjunctive queries with lexicographic orders.
+		  <span class="w3-opacity">
+		    Published as "Tight Fine-Grained Bounds for Direct Access on Join Queries".
+		  </span>
+		</p>
+		<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2201.02401">Arxiv</a>
+		<a class="w3-button w3-white w3-hover-red" target="_blank" href="resources/AccessPreprocessPODS.pdf">PODS 22</a>
+		<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3517804.3526234#video_stream_uuid%3Afa7d9378-ec86-47af-9f44-3743d6b34c60">Talk</a>
+		<p class="w3-left-align"><b class="w3-xlarge">Quantile Queries.</b>
+		  Simulating an array efficiently only works for queries of some structures. For other queries, we propose an efficient algorithm for a single access to the array, and when this is provably not possible - an approximation algorithm.
+		  <span class="w3-opacity">
+		    Published as "Efficient Computation of Quantiles over Joins".
+		  </span>
+		</p>
+		<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2305.16525">Arxiv</a>
+		<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3584372.3588670">PODS 23</a>
+		<p class="w3-left-align"><b class="w3-xlarge">CQs with Aggregation.</b>
+		  We look into when such an array simulation can be done with only linear preprocessing for CQs with grouping and aggregation.
+		  <span class="w3-opacity">
+		    To appear in ICDT 2024 as "Direct Access for Answers to Conjunctive Queries with Aggregation".
+		  </span>
+		</p>
+		<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2303.05327">Arxiv</a>
+      </li>
+	  <li class="w3-padding-16 w3-light-grey">
+        <h2>Enumerating Query Answers</h2>
+		<p><span class="w3-opacity">
+		  Suppose we want to efficiently list all query answers. If the queries we consider are Conjunctive Queries (CQs) without self-joins over general databases, we know exactly for which queries this can be done with ideal time guarantees (linear preprocessing and constant delay). We look into how this classification extends to more general settings.
+		</span></p>
+		<p class="w3-left-align"><b class="w3-xlarge">Answering queries with self joins.</b>
           Known hardness results apply only for queries without self-joins. We study how self-joins affect the complexity of listing all query answers and identify several cases where they turn queries with an intractable structure into tractable queries.
-        </p>
+		  <span class="w3-opacity">
+		    Published as "Conjunctive Queries With Self-Joins, Towards a Fine-Grained Enumeration Complexity Analysis".
+		  </span>
+		</p>
         <a class="w3-button w3-white w3-hover-red" target="_blank" href="https://arxiv.org/abs/2206.04988">Arxiv</a>
+		<a class="w3-button w3-white w3-hover-red" target="_blank" href="https://dl.acm.org/doi/10.1145/3584372.3588667">PODS 23</a>
 		<p class="w3-left-align"><b class="w3-xlarge">Enumerating answers in random order.</b>
           We would like to efficiently list all query answers in uniformly random order, so every prefix of the answers is statistically meaningful.
           When can this be achieved with only linear preprocessing and polylogarithmic delay?
